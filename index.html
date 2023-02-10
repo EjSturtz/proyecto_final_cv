@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!-- 
+Autor: Eliana J. Stürtz
+Proyecto Final del curso Front end Academy - Enero 2023
+
+Todos los datos/fotos usados en la pagina no son de personas reales.
+Referencias:
+- Random user generation: https://randomuser.me
+- CV programador ejemplo: https://www.livecareer.es/curriculum-vitae-ejemplos/curriculum-programador
+-->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <title>Kathryn Allen</title>
+
+        <div class="nav">
+            <h3 class="logo" style="color: white">Kathryn Allen</h3>
+            <div id="nav-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="menu" class="menu">
+                <ul>
+                    <li><a href="#top" class="menu-text">Home</a></li>
+                    <li><a href="#perfil" class="menu-text">Perfil</a></li>
+                    <li><a href="#educacion" class="menu-text">Educación</a></li>
+                    <li><a href="#cursos-adicionales" class="menu-text">Cursos Adicionales</a></li>
+                    <li><a href="#habilidades" class="menu-text">Habilidades</a></li>
+                    <li><a href="#idiomas" class="menu-text">Idiomas</a></li>
+                    <li><a href="#experiencia" class="menu-text">Experiencia</a></li>
+                </ul>
+            </div>
+        </div>
+    </head>
+    <body>
+        <div class="content">
+            <div class="masthead">
+                <img src="assets/images/profile-pic.png" class="pic">
+                <div class="mh">
+                    <h3>Kathryn Allen</h3>
+                    <h4>Desarrolladora Front-End</h4>
+                </div>
+            </div>
+            <div class="sections">
+                <div class="experiencia">
+                    <div class="text-experiencia">
+                        <h1>CONTACTO</h1>
+                        <h2> Buenos Aires, Argentina.</h2>
+                        <div class="redes">
+                            <a href="mailto:cv@ProyectoFinal.com.ar" target="_blank" class="redes-text">
+                            <img src="assets/images/square-envelope-solid.svg" class="logo-redes"> 
+                            </a>
+                            <a href="https://wa.me/1XXXXXXXXXX" target="_blank" class="redes-text">
+                            <img src="assets/images/square-whatsapp.svg" class="logo-redes">
+                            </a>
+                            <a href="https://www.facebook.com/"  target="_blank" class="redes-text">
+                            <img src="assets/images/square-facebook.svg" class="logo-redes">
+                            </a>
+                            <a href="https://www.linkedin.com/"  target="_blank" class="redes-text">
+                            <img src="assets/images/square-linkedin.svg" class="logo-redes">
+                            </a>
+                            <a href="https://www.github.com/"  target="_blank" class="redes-text">
+                            <img src="assets/images/square-github.svg" class="logo-redes">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-links">
+                    <div class="row">
+                        <div class="column">
+                            <a href="#perfil" class="button btn-rosa">Perfil</a>
+                            <a href="#perfil" class="redes-text">
+                            <img src="assets/images/FLECHITA-gris.png" class="color-down">
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="#educacion" class="button btn-lila">Educación</a>
+                            <a href="#educacion" class="redes-text">
+                            <img src="assets/images/FLECHITA-gris.png" class="color-down">
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="#habilidades" class="button btn-rosa">Habilidades</a>
+                            <a href="#habilidades" class="redes-text">
+                            <img src="assets/images/FLECHITA-gris.png" class="color-down">
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="#experiencia" class="button btn-lila">Experiencia</a>
+                            <a href="#experiencia" class="redes-text">
+                            <img src="assets/images/FLECHITA-gris.png" class="color-down">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="perfil" id="perfil">
+                    <h1>PERFIL</h1>
+                    <h2>Programador con 5 años de experiencia desarrollando aplicaciones móviles.<br> En mi actual puesto dentro de TechNerds, he creado 6 apps diferentes las cuales recibieron un puntaje<br> de 4.5 estrellas y han sido descargadas por más de 10.000 usuarios.<br> Quisiera integrarme al equipo de Cloud IT para desarrollar proyectos que ofrezcan soluciones digitales<br> y mejoren la experiencia de los usuarios.</h2>
+                    <div class="arrow-down">
+                        <a href="#educacion" class="redes-text">
+                        <img src="assets/images/FLECHA-gris.png" class="down">
+                        </a>
+                    </div>
+                </div>
+                <div class="educacion" id="educacion">
+                    <h1>Educación</h1>
+                    <li class="list-ex">Grado en ingeniería informática</li>
+                    <h2>Universidad de Buenos Aires<br>
+                    Fecha esperada de graduación: junio 2021<br>
+                    Nota media: 9,6<br>
+                    Especialización en ingeniería en el software
+                    <br><br><br>
+                    <li class="list-ex">Secundario</li>
+                    Escuela de Educacion Media N°5<br>
+                    Fecha de graduación: junio 2015<br>
+                    Nota media: 9,6<br>
+                    Especialización: Bachiller
+                    </h2>
+                    <div class="arrow-down">
+                        <a href="#habilidades" class="redes-text">
+                        <img src="assets/images/FLECHA-gris.png" class="down">
+                        </a>
+                    </div>
+                </div>
+                <div class="cursos-adicionales" id="cursos-adicionales">
+                    <h1>Cursos Adicionales</h1>
+                    <li class="list">Certificación Java SE 11 Developer</li>
+                    <li class="list">Oracle - 2019</li>  
+                </div>
+                <div class="habilidades" id="habilidades">
+                    <h1>Habilidades</h1>
+                    <div class="hab">
+                        <li class="list-hab">HTML</li>
+                        <li class="list-hab">Proactividad</li>
+                        <li class="list-hab">CSS3</li>
+                        <li class="list-hab">Desarrollo de plug-ins de Wordpress</li>
+                        <li class="list-hab">Trabajo en equipo</li>
+                        <li class="list-hab">SAS Suite</li>
+                        <li class="list-hab">OpenShift</li>
+                        <li class="list-hab">Adaptabilidad</li>
+                        <li class="list-hab">Capacidad analítica</li>
+                        <li class="list-hab">Dynamics 365</li>
+                    </div>
+                    <a href="#experiencia" class="redes-text">
+                        <img src="assets/images/FLECHA-gris.png" class="down">
+                    </a>
+                </div>
+                <div class="idiomas" id="idiomas">
+                    <h1>Idiomas</h1>
+                    <li class="list">Inglés C1</li>
+                    <li class="list">Alemán C2</li>
+                </div>
+                <div class="experiencia" id="experiencia">
+                    <div class="text-experiencia">
+                        <h1><b>Experiencia</b></h1>
+                        <li class="list-ex">Programador Java</li>
+                        <h2>Ulrich Tech |  Mayo 2018 - actualidad<br>
+                            <br>
+                            Responsable del desarrollo y la fase de pruebas de las aplicaciones móviles de la empresa.<br>
+                            Mis aplicaciones presentaron 15% menos errores que las apps desarrolladas por otros programadores.<br>
+                            Reduje los tiempos entrega de proyectos de programación en un 10%.<br>
+                            Colaboré con diseñadores, project managers y copywriters para rediseñar la app SaveYou,<br> la cual se encarga de protección de datos personales. <br>
+                            <br><br><br>
+                            <li class="list-ex">Programador Jr</li>
+                            Silos Corp | Enero 2015 - abril 2018 <br>
+                            <br>
+                            Diseñé más de 30 páginas web para el sitio oficial de la empresa.<br>
+                            Colaboré con los programadores Sr para resolver un promedio de 15 incidencias semanales.<br>
+                            Reduje los tiempos de carga de la página principal en un 10%.<br>
+                            Monitoreé el funcionamiento de las páginas web, identifiqué problemas potenciales<br> y generé reportes de resultados mensuales.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="redes">
+                <a href="mailto:cv@ProyectoFinal.com.ar" target="_blank" class="redes-text">
+                <img src="assets/images/square-envelope-solid.svg" class="logo-redes">
+                </a>
+                <a href="https://wa.me/1XXXXXXXXXX" target="_blank" class="redes-text">
+                <img src="assets/images/square-whatsapp.svg" class="logo-redes">
+                </a>
+                <a href="https://www.facebook.com/"  target="_blank" class="redes-text">
+                <img src="assets/images/square-facebook.svg" class="logo-redes">
+                </a>
+                <a href="https://www.linkedin.com/"  target="_blank" class="redes-text">
+                <img src="assets/images/square-linkedin.svg" class="logo-redes">
+                </a>
+                <a href="https://www.github.com/"  target="_blank" class="redes-text">
+                <img src="assets/images/square-github.svg" class="logo-redes">
+                </a>
+            </div>
+            <hr color="#7443a5">
+            <div class="text-footer">
+                <a>Front end Academy - Enero 2023 | Proyecto Final</a>
+                <p>Eliana J. Stürtz</p>
+            </div>
+        </footer>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
